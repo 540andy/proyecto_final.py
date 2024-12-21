@@ -1,0 +1,96 @@
+"""numero1 = int(input("ingesa el primer numero: "))
+numero2 = int(input("ingesa el primer numero: "))
+suma = numero1 + numero2
+print("La suma es:", suma)"""
+
+
+"""semana 5 
+diagrama de flujo, se introduce informacion por teclado y se va a validar si  el usuario introduce un nùmero"""
+
+
+"""entrada = input("Hola! introduce tu edad: ")
+edad = 0
+
+if entrada.isnumeric():
+    edad = int(entrada)
+else:
+    print("Dato incorrecto, Debes introducir un número")
+    exit()
+
+if edad <= 0:
+    print("Lo siento, eso no es posible")
+elif edad < 18:
+    print("Eres menor de edad, así que no puedes comprar cigarros")
+elif edad < 115:
+    print("¡Vaya! ¿Cómo haces para vivir tanto? No te creo, intenta de nuevo.")
+else:
+    print("Eres mayor de edad") """
+
+
+
+
+
+"""numero =  int(input("ingrese un numro:"))
+
+
+if numero > 11 : 
+    print(" Es real")
+else: 
+    print(" es falso")
+"""
+      
+
+# practicando las condiocionales#
+
+#definimos el color a adivinar# 
+color_secreto = "azul"
+
+#interactuamos con el usuario haciendole la pregunta#
+
+"""print("Adivina el color oculto")
+ # se estructura la condiconal#
+
+color_ingresado = (input("ingresa un color: "))
+if color_ingresado == color_secreto:
+   print("perfecto!! adivinaste")
+elif color_ingresado == "purpura":
+   
+   print("estàs un poco cerca de la respuesta correcta")
+
+else:   print("intenta nuevamente")"""
+
+
+# practica del uso del uso del bucle while#
+#definimos una variable#
+
+
+
+
+
+
+
+""" Ejercicio de semana 6, solicite al usuario el año actual y un año cualquiera, que 
+despliegue en pantalla cuantos años faltan para llegar a ese año, debo tener en cuenta 
+que si solo falta o ha pasado un año se muestre el mensaje indicado
+que notifique si se ha ingresado el mismo año dos veces, 
+"""
+
+año_actual= int(input("Introduce el año actual"))
+año_calcular= int(input("Introduce otro año para calcular el tiempo que ha pasado: "))
+
+
+if año_actual == año_calcular: 
+    print("Los años son iguales")
+
+else: 
+    diferencia = abs(año_calcular - año_actual)
+    if año_actual > año_calcular:
+        print(f"Han transcurrido {diferencia} años.")
+    else: 
+        print(f"Faltan { diferencia } años para llegar al {año_calcular}.")
+
+
+
+
+
+
