@@ -74,11 +74,12 @@ despliegue en pantalla cuantos años faltan para llegar a ese año, debo tener e
 que si solo falta o ha pasado un año se muestre el mensaje indicado
 que notifique si se ha ingresado el mismo año dos veces, 
 """
-
+#definimos variables#
+"""
 año_actual= int(input("Introduce el año actual"))
 año_calcular= int(input("Introduce otro año para calcular el tiempo que ha pasado: "))
 
-
+#hacemos uso de las condiconales if y else, para poder ejecutar las aciones del codigo #
 if año_actual == año_calcular: 
     print("Los años son iguales")
 
@@ -87,7 +88,7 @@ else:
     if año_actual > año_calcular:
         print(f"Han transcurrido {diferencia} años.")
     else: 
-        print(f"Faltan { diferencia } años para llegar al {año_calcular}.")
+        print(f"Faltan { diferencia } años para llegar al {año_calcular}.")"""
 
 
 

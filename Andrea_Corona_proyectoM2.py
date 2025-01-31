@@ -61,4 +61,12 @@ elif ((x < 0) and (y >0 )):
 else:
     print("Punto en el origen")
 
-print("vuelva pronto")
+
+print("\n¡Gracias por usar el programa!\n")
+
+
+
+
+#Estè proyecto me ha permido seguir aplicando los conocimientos adquiridos durante estos dos meses, sin embargo, aùn
+# me cuesta un poco 
+#la lògica de programaciòn
